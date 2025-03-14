@@ -1,2 +1,6 @@
 fruitbox_data.json
 fruitbox_ai.h5
+fruitbox_apple_classifier.h5
+apple_classifier.h5
+__pycache__
+improved_apple_classifier.h5
