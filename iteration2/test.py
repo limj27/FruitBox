@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 import tensorflow as tf
 
-model = tf.keras.models.load_model("improved_apple_classifier.h5")
+model = tf.keras.models.load_model("apple_classifier.h5")
 
 
 # Load the image you want to test
-image_path = 'apple_images/8/8.png'
+image_path = 'apple_images/1/1.png'
 apple_image = cv2.imread(image_path)
 
 # Resize the image to the expected input size (e.g., 32x32 if that's your model input size)
